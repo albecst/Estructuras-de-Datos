@@ -27,3 +27,14 @@ int Pila::top() {
     }
     return 0;
 }
+
+int Pila::count() {
+    int cantidad = 0;
+    pnodo nodo = cima;
+    while (nodo != NULL) {
+        cantidad++;
+        nodo = nodo->siguiente;
+    }
+    cout << "Cantidad de elementos en la pila: " << cantidad << endl;
+    return cantidad;
+}

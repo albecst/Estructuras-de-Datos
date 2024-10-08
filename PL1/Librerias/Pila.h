@@ -5,6 +5,7 @@
 class Pila {
 private:
     pnodo cima; // cima should be a pointer to NodoPila
+
 public:
     Pila();
     ~Pila();
@@ -13,6 +14,7 @@ public:
     void push(int v);
     void pop();
     int top();
+    int count();
 };
 
 #endif // PILA_H
