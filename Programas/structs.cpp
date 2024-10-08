@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <string.h>
 #include <bits/stdc++.h>
@@ -34,3 +35,4 @@ int main() {
   lee_estudiantes(estudiante, cuantos);
   return 0;
 }
+*/

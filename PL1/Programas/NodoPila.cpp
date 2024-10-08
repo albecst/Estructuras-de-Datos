@@ -5,9 +5,9 @@ NodoPila::NodoPila() { //Constructor vacío
     siguiente = NULL;
 }
 
-NodoPila::NodoPila(int elemento, NodoPila *siguiente) { //Constructor con un valor y el siguiente
+NodoPila::NodoPila(int elemento, pnodo sig) { //Constructor con un valor y el siguiente
     valor = elemento;
-    siguiente = siguiente;
+    siguiente = sig;
 }
 
 NodoPila::~NodoPila() { //Destructor (no hace mucho realmente)

@@ -3,26 +3,24 @@
 using namespace std;
 
 Pila::Pila() { cima = NULL; }
-Pila::~Pila() { while (cima) pop(); }
+Pila::~Pila() { while (cima != NULL) pop(); }
 bool Pila::isEmpty() { return cima == NULL; }
 
 void Pila::push(int v) {
-    NodoPila nuevo = new NodoPila(v,
-                               cima);
-    //comienzo de la pila nevo nodo
+    pnodo nuevo = new NodoPila(v, cima);
     cima = nuevo;
 }
 
 void Pila::pop() {
-    NodoPila nodo; //puntero aux para manipular el nodo
-    if (cima)
-        nodo = cima;
-    cima = nodo->siguiente;
-    delete nodo;
+    if (cima != NULL) {
+        pnodo nodo = cima;
+        cima = cima->siguiente;
+        delete nodo;
+    }
 }
 
-int Pila::show() {
-    if (esVacia()) {
+int Pila::top() {
+    if (isEmpty()) {
         cout << "Pila vacia" << endl;
     } else {
         cout << "Cima pila: " << cima->valor << endl;

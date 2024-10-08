@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "../Librerias/Fraccion.h"
 #include <stdexcept>
@@ -105,3 +106,4 @@ int main() {
 
     return 0;
 }
+*/

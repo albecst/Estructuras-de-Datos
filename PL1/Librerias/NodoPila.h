@@ -10,9 +10,9 @@ class NodoPila {
 
     public:
         NodoPila();
-        NodoPila(int v, NodoPila *siguiente = NULL);
+        NodoPila(int v, NodoPila *sig = NULL);
         ~NodoPila();
 };
 
-typedef NodoPila *pNodoPila;
+typedef NodoPila* pnodo;
 #endif

@@ -1,10 +1,10 @@
 #ifndef PILA_H
 #define PILA_H
 #include "NodoPila.h"
-class Pila
-{
+
+class Pila {
 private:
-    NodoPila cima;
+    pnodo cima; // cima should be a pointer to NodoPila
 public:
     Pila();
     ~Pila();
@@ -12,6 +12,7 @@ public:
     bool isEmpty();
     void push(int v);
     void pop();
-    int show();
+    int top();
 };
+
 #endif // PILA_H

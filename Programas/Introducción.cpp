@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include <string>
 using namespace std;
@@ -78,6 +79,7 @@ public:
  * Si queremos cambiar algo de algún objeto, si hacemos objeto.setEdad(20), la edad no cambiará, ya que se modificará el objeto en sí, y no la copia que guardamos en el array.
  * Para cambiar algo de un objeto y que SIEMPRE funcione, necesitamos pasar un puntero a la función, y modificar el objeto a través de ese puntero.
 */
+/*
 
 int main() {
     Persona p1("Juan", 20);
@@ -128,3 +130,5 @@ int main() {
 
     return 0; // Fin del programa.
 }
+
+*/

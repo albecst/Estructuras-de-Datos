@@ -1,23 +1,28 @@
 #include <iostream>
+#include "NodoPila.h"
 #include "Pila.h"
 using namespace std;
 int main()
 {
     cout << "Creamos la pila Vacía" << endl;
     Pila p;
-    p.mostrar();
+    p.top();
     cout << "Apilo 0" << endl;
-    p.apilar(0);
-    p.mostrar();
+    p.push(0);
+    p.top();
     cout << "Apilo 1" << endl;
-    p.apilar(1);
-    p.mostrar();
+    p.push(1);
+    p.top();
     cout << "Apilo 2" << endl;
-    p.apilar(2);
-    p.mostrar();
+    p.push(2);
+    p.top();
     cout << "Desapilo" << endl;
-    p.desapilar();
-    p.mostrar();
+    p.pop();
+    p.top();
+    p.pop();
+    p.top();
+    p.pop();
+    p.top();
     p.~Pila(); //es innecesario, se va a llamar al destructor al salir de la ejecución
     return 0;
 }
