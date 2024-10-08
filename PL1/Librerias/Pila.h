@@ -15,6 +15,10 @@ public:
     void pop();
     int top();
     int count();
+    void fondo();
+    void montar(Pila pila);
+    void quitar();
+    void invertir();
 };
 
 #endif // PILA_H

@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     cout << "Creamos la pila Vacía" << endl;
     Pila p;
+    Pila p2;
     p.top();
     cout << "Apilo 0" << endl;
     p.push(0);
@@ -27,12 +28,46 @@ int main() {
     p.pop();
     p.count();
 
+    p.fondo();
+
     p.top();
     p.pop();
     p.count();
 
     p.top();
     p.count();
+
+    p.pop();
+    p.pop();
+    p.pop();
+    p.pop();
+    p.pop();
+    p.pop();
+    p.count();
+
+    cout << endl;
+
+    p2.push(1);
+    p2.push(2);
+    p2.push(3);
+    p2.count();
+
+    cout << endl;
+
+    p2.top();
+    p2.fondo();
+
+    p2.invertir();
+
+    p2.top();
+    p2.fondo();
+
+    p.montar(p2);
+    cout << endl;
+
+    p.top();
+    p.fondo();
+
 
     p.~Pila(); //es innecesario, se va a llamar al destructor al salir de la ejecución
     return 0;
