@@ -75,3 +75,23 @@ void Cola::mostrarCola() {
         }
     }
 }
+
+//1)
+void Cola::invertir() {
+    Cola c2;
+    Cola c3;
+    while (!es_vacia()) {
+        c2.encolar(desencolar());
+    }
+    while (!c2.es_vacia()) {
+        char ultimo = c2.desencolar();
+        while (!c2.es_vacia()) {
+            c3.encolar(ultimo);
+            ultimo = c2.desencolar();
+        }
+        encolar(ultimo);
+        while (!c3.es_vacia()) {
+            c2.encolar(c3.desencolar());
+        }
+    }
+}

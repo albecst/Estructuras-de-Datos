@@ -16,5 +16,6 @@ public:
     bool es_vacia();
     void mostrarCola(); //No es correcto, se implementa para ver que está creada correctamente
     int get_longitud();
+    void invertir();
 };
 #endif // COLA_H

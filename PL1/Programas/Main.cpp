@@ -5,21 +5,19 @@
 #include "../Librerias/Cola.h"
 using namespace std;
 
-int main()
-{ cout << "Creamos la cola Vacía" << endl;
-    Cola c; c.mostrarCola();
-    cout << "Encolo 0" << endl;
-    c.encolar('0'); c.mostrarCola();;
-    cout << "Encolo 1" << endl;
-    c.encolar('1'); c.mostrarCola();;
-    cout << "Encolo 2" << endl;
-    c.encolar('2'); c.mostrarCola();
-    cout << "Primero" << c.inicio()<<endl;
-    cout << "Ultimo" << c.fin()<<endl;
-    cout << "Longitud Cola: " << c.get_longitud()<<endl;
-    cout << "Desencolo" << endl;
-    c.desencolar(); c.mostrarCola();
-    cout << "Longitud Cola: " << c.get_longitud()<<endl;
+int main() {
+    Cola c;
+    c.mostrarCola();
+    c.encolar('0');
+    c.mostrarCola();;
+    c.encolar('1');
+    c.mostrarCola();;
+    c.encolar('2');
+    c.mostrarCola();
+    c.encolar('9');
+    c.mostrarCola();
+    c.invertir();
+    c.mostrarCola();
     c.~Cola();
     return 0;
 }
