@@ -152,6 +152,54 @@ PL1/Programas/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.s
 .PHONY : PL1/Programas/Main.cpp.s
 
+PL1/Programas/NodoPila.obj: PL1/Programas/NodoPila.cpp.obj
+.PHONY : PL1/Programas/NodoPila.obj
+
+# target to build an object file
+PL1/Programas/NodoPila.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj
+.PHONY : PL1/Programas/NodoPila.cpp.obj
+
+PL1/Programas/NodoPila.i: PL1/Programas/NodoPila.cpp.i
+.PHONY : PL1/Programas/NodoPila.i
+
+# target to preprocess a source file
+PL1/Programas/NodoPila.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.i
+.PHONY : PL1/Programas/NodoPila.cpp.i
+
+PL1/Programas/NodoPila.s: PL1/Programas/NodoPila.cpp.s
+.PHONY : PL1/Programas/NodoPila.s
+
+# target to generate assembly for a file
+PL1/Programas/NodoPila.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.s
+.PHONY : PL1/Programas/NodoPila.cpp.s
+
+PL1/Programas/Pila.obj: PL1/Programas/Pila.cpp.obj
+.PHONY : PL1/Programas/Pila.obj
+
+# target to build an object file
+PL1/Programas/Pila.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj
+.PHONY : PL1/Programas/Pila.cpp.obj
+
+PL1/Programas/Pila.i: PL1/Programas/Pila.cpp.i
+.PHONY : PL1/Programas/Pila.i
+
+# target to preprocess a source file
+PL1/Programas/Pila.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.i
+.PHONY : PL1/Programas/Pila.cpp.i
+
+PL1/Programas/Pila.s: PL1/Programas/Pila.cpp.s
+.PHONY : PL1/Programas/Pila.s
+
+# target to generate assembly for a file
+PL1/Programas/Pila.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.s
+.PHONY : PL1/Programas/Pila.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -164,6 +212,12 @@ help:
 	@echo ... PL1/Programas/Main.obj
 	@echo ... PL1/Programas/Main.i
 	@echo ... PL1/Programas/Main.s
+	@echo ... PL1/Programas/NodoPila.obj
+	@echo ... PL1/Programas/NodoPila.i
+	@echo ... PL1/Programas/NodoPila.s
+	@echo ... PL1/Programas/Pila.obj
+	@echo ... PL1/Programas/Pila.i
+	@echo ... PL1/Programas/Pila.s
 .PHONY : help
 
 

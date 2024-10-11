@@ -9,6 +9,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/alber/CLionProjects/Estructuras-de-Datos/PL1/Programas/Main.cpp" "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj" "gcc" "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj.d"
+  "C:/Users/alber/CLionProjects/Estructuras-de-Datos/PL1/Programas/NodoPila.cpp" "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj" "gcc" "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj.d"
+  "C:/Users/alber/CLionProjects/Estructuras-de-Datos/PL1/Programas/Pila.cpp" "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj" "gcc" "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

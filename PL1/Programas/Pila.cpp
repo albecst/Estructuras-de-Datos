@@ -1,5 +1,5 @@
-#include "Pila.h"
-#include "NodoPila.h"
+#include "../Librerias/Pila.h"
+#include "../Librerias/NodoPila.h"
 using namespace std;
 
 Pila::Pila() { cima = NULL; }
@@ -59,9 +59,13 @@ void Pila::montar(Pila p2) {
     pnodo nodo2 = p2.cima;
     while (nodo2 != NULL) {
         push(nodo2->valor);
+        nodo2 = nodo2->siguiente;
+    }
+    while (!p2.isEmpty()) {
         p2.pop();
     }
 }
+
 
 //4)
 void Pila::quitar() {

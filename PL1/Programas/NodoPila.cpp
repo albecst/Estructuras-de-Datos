@@ -1,4 +1,4 @@
-#include "NodoPila.h"
+#include "../Librerias/NodoPila.h"
 
 NodoPila::NodoPila() { //Constructor vacío
     valor = 0;

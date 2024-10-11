@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj"
   "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj.d"
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj"
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj.d"
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj"
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj.d"
   "Estructuras-De-Datos.exe"
   "Estructuras-De-Datos.exe.manifest"
   "Estructuras-De-Datos.pdb"

@@ -1,6 +1,6 @@
 #include <iostream>
-#include "NodoPila.h"
-#include "Pila.h"
+#include "../Librerias/NodoPila.h"
+#include "../Librerias/Pila.h"
 using namespace std;
 
 int main() {
@@ -54,6 +54,7 @@ int main() {
 
     cout << endl;
 
+    p.push(40);
     p2.top();
     p2.fondo();
 
