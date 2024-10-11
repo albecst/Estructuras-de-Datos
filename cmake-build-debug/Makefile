@@ -128,6 +128,30 @@ Estructuras-De-Datos/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/build
 .PHONY : Estructuras-De-Datos/fast
 
+PL1/Programas/Cola.obj: PL1/Programas/Cola.cpp.obj
+.PHONY : PL1/Programas/Cola.obj
+
+# target to build an object file
+PL1/Programas/Cola.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj
+.PHONY : PL1/Programas/Cola.cpp.obj
+
+PL1/Programas/Cola.i: PL1/Programas/Cola.cpp.i
+.PHONY : PL1/Programas/Cola.i
+
+# target to preprocess a source file
+PL1/Programas/Cola.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.i
+.PHONY : PL1/Programas/Cola.cpp.i
+
+PL1/Programas/Cola.s: PL1/Programas/Cola.cpp.s
+.PHONY : PL1/Programas/Cola.s
+
+# target to generate assembly for a file
+PL1/Programas/Cola.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.s
+.PHONY : PL1/Programas/Cola.cpp.s
+
 PL1/Programas/Main.obj: PL1/Programas/Main.cpp.obj
 .PHONY : PL1/Programas/Main.obj
 
@@ -151,6 +175,30 @@ PL1/Programas/Main.s: PL1/Programas/Main.cpp.s
 PL1/Programas/Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.s
 .PHONY : PL1/Programas/Main.cpp.s
+
+PL1/Programas/NodoCola.obj: PL1/Programas/NodoCola.cpp.obj
+.PHONY : PL1/Programas/NodoCola.obj
+
+# target to build an object file
+PL1/Programas/NodoCola.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj
+.PHONY : PL1/Programas/NodoCola.cpp.obj
+
+PL1/Programas/NodoCola.i: PL1/Programas/NodoCola.cpp.i
+.PHONY : PL1/Programas/NodoCola.i
+
+# target to preprocess a source file
+PL1/Programas/NodoCola.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.i
+.PHONY : PL1/Programas/NodoCola.cpp.i
+
+PL1/Programas/NodoCola.s: PL1/Programas/NodoCola.cpp.s
+.PHONY : PL1/Programas/NodoCola.s
+
+# target to generate assembly for a file
+PL1/Programas/NodoCola.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Estructuras-De-Datos.dir\build.make CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.s
+.PHONY : PL1/Programas/NodoCola.cpp.s
 
 PL1/Programas/NodoPila.obj: PL1/Programas/NodoPila.cpp.obj
 .PHONY : PL1/Programas/NodoPila.obj
@@ -209,9 +257,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Estructuras-De-Datos
+	@echo ... PL1/Programas/Cola.obj
+	@echo ... PL1/Programas/Cola.i
+	@echo ... PL1/Programas/Cola.s
 	@echo ... PL1/Programas/Main.obj
 	@echo ... PL1/Programas/Main.i
 	@echo ... PL1/Programas/Main.s
+	@echo ... PL1/Programas/NodoCola.obj
+	@echo ... PL1/Programas/NodoCola.i
+	@echo ... PL1/Programas/NodoCola.s
 	@echo ... PL1/Programas/NodoPila.obj
 	@echo ... PL1/Programas/NodoPila.i
 	@echo ... PL1/Programas/NodoPila.s

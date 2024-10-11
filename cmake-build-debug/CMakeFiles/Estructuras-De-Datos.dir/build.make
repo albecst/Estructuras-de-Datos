@@ -110,11 +110,41 @@ CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.s"
 	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alber\CLionProjects\Estructuras-de-Datos\PL1\Programas\NodoPila.cpp -o CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\NodoPila.cpp.s
 
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj: CMakeFiles/Estructuras-De-Datos.dir/flags.make
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj: C:/Users/alber/CLionProjects/Estructuras-de-Datos/PL1/Programas/NodoCola.cpp
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj: CMakeFiles/Estructuras-De-Datos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\alber\CLionProjects\Estructuras-de-Datos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj -MF CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\NodoCola.cpp.obj.d -o CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\NodoCola.cpp.obj -c C:\Users\alber\CLionProjects\Estructuras-de-Datos\PL1\Programas\NodoCola.cpp
+
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alber\CLionProjects\Estructuras-de-Datos\PL1\Programas\NodoCola.cpp > CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\NodoCola.cpp.i
+
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alber\CLionProjects\Estructuras-de-Datos\PL1\Programas\NodoCola.cpp -o CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\NodoCola.cpp.s
+
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj: CMakeFiles/Estructuras-De-Datos.dir/flags.make
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj: C:/Users/alber/CLionProjects/Estructuras-de-Datos/PL1/Programas/Cola.cpp
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj: CMakeFiles/Estructuras-De-Datos.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\alber\CLionProjects\Estructuras-de-Datos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj -MF CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\Cola.cpp.obj.d -o CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\Cola.cpp.obj -c C:\Users\alber\CLionProjects\Estructuras-de-Datos\PL1\Programas\Cola.cpp
+
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\alber\CLionProjects\Estructuras-de-Datos\PL1\Programas\Cola.cpp > CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\Cola.cpp.i
+
+CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\alber\CLionProjects\Estructuras-de-Datos\PL1\Programas\Cola.cpp -o CMakeFiles\Estructuras-De-Datos.dir\PL1\Programas\Cola.cpp.s
+
 # Object files for target Estructuras-De-Datos
 Estructuras__De__Datos_OBJECTS = \
 "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj" \
 "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj" \
-"CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj"
+"CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj" \
+"CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj" \
+"CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj"
 
 # External object files for target Estructuras-De-Datos
 Estructuras__De__Datos_EXTERNAL_OBJECTS =
@@ -122,11 +152,13 @@ Estructuras__De__Datos_EXTERNAL_OBJECTS =
 Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj
 Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj
 Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj
+Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj
+Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj
 Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/build.make
 Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/linkLibs.rsp
 Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/objects1.rsp
 Estructuras-De-Datos.exe: CMakeFiles/Estructuras-De-Datos.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\alber\CLionProjects\Estructuras-de-Datos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Estructuras-De-Datos.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\alber\CLionProjects\Estructuras-de-Datos\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Estructuras-De-Datos.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Estructuras-De-Datos.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

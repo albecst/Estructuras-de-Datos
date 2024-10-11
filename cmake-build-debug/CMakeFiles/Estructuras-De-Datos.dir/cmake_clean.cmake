@@ -1,6 +1,10 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj"
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Cola.cpp.obj.d"
   "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj"
   "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Main.cpp.obj.d"
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj"
+  "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoCola.cpp.obj.d"
   "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj"
   "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/NodoPila.cpp.obj.d"
   "CMakeFiles/Estructuras-De-Datos.dir/PL1/Programas/Pila.cpp.obj"
