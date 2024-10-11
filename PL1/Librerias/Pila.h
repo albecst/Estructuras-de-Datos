@@ -17,8 +17,10 @@ public:
     int count();
     void fondo();
     void montar(Pila pila);
-    void quitar();
+    void quitar(int n);
     void invertir();
+    void menor_a_mayor();
+    void imprimirTodos();
 };
 
 #endif // PILA_H
