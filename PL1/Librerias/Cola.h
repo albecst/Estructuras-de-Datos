@@ -17,5 +17,7 @@ public:
     void mostrarCola(); //No es correcto, se implementa para ver que está creada correctamente
     int get_longitud();
     void invertir();
+    void iguales(Cola c);
+    void simetrica();
 };
 #endif // COLA_H

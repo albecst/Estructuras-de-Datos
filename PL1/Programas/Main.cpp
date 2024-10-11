@@ -7,17 +7,22 @@ using namespace std;
 
 int main() {
     Cola c;
-    c.mostrarCola();
+    Cola c2;
     c.encolar('0');
-    c.mostrarCola();;
     c.encolar('1');
-    c.mostrarCola();;
     c.encolar('2');
-    c.mostrarCola();
     c.encolar('9');
     c.mostrarCola();
-    c.invertir();
-    c.mostrarCola();
+
+    c2.encolar('0');
+    c2.encolar('1');
+    c2.encolar('2');
+    c2.encolar('9');
+    c2.mostrarCola();
+
+    c2.iguales(c);
+
+
     c.~Cola();
     return 0;
 }

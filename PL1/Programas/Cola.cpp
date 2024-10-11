@@ -95,3 +95,32 @@ void Cola::invertir() {
         }
     }
 }
+
+//2)
+void Cola::iguales(Cola c) {
+    Cola c2;
+    Cola c3;
+    bool iguales = true;
+    while (!es_vacia() && !c.es_vacia()) {
+        if (inicio() == c.inicio()) {
+            c2.encolar(desencolar());
+            c3.encolar(c.desencolar());
+        } else {
+            iguales = false;
+            break;
+        }
+    }
+    if (iguales) {
+        cout << "Las colas son iguales" << endl;
+    } else {
+        cout << "Las colas no son iguales" << endl;
+    }
+    while (!c2.es_vacia()) {
+        encolar(c2.desencolar());
+    }
+    while (!c3.es_vacia()) {
+        c.encolar(c3.desencolar());
+    }
+}
+
+//3)
