@@ -133,6 +133,7 @@ void Cola::concatenar(Cola c2) {
     }
 }
 
+//5)
 void Cola::mezclar_alternativamente(Cola c1, Cola c2) {
     while (!c1.es_vacia() && !c2.es_vacia()) {
         encolar(c1.desencolar());
@@ -143,6 +144,13 @@ void Cola::mezclar_alternativamente(Cola c1, Cola c2) {
     }
     while (!c2.es_vacia()) {
         encolar(c2.desencolar());
+    }
+}
+
+void Cola::quitar_primera_mitad() {
+    int mitad = longitud / 2;
+    for (int i = 0; i < mitad; i++) {
+        desencolar();
     }
 }
 

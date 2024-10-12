@@ -21,5 +21,6 @@ public:
     void simetrica();
     void concatenar(Cola c);
     void mezclar_alternativamente(Cola c, Cola resultado);
+    void quitar_primera_mitad();
 };
 #endif // COLA_H

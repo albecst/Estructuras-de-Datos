@@ -23,5 +23,8 @@ int main() {
     resultado.mezclar_alternativamente(c, c2);
     resultado.mostrarCola();
 
+    resultado.quitar_primera_mitad();
+    resultado.mostrarCola();
+
     return 0;
 }
