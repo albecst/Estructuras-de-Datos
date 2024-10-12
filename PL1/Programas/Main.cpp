@@ -8,7 +8,7 @@ using namespace std;
 int main() {
     Cola c;
     Cola c2;
-    Cola c3;
+    Cola resultado;
     c.encolar('0');
     c.encolar('1');
     c.encolar('2');
@@ -20,9 +20,8 @@ int main() {
 
     c.mostrarCola();
     c2.mostrarCola();
-    c.concatenar(c2);
-
-    c.mostrarCola();
+    resultado.mezclar_alternativamente(c, c2);
+    resultado.mostrarCola();
 
     return 0;
 }

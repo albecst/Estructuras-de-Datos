@@ -133,6 +133,19 @@ void Cola::concatenar(Cola c2) {
     }
 }
 
+void Cola::mezclar_alternativamente(Cola c1, Cola c2) {
+    while (!c1.es_vacia() && !c2.es_vacia()) {
+        encolar(c1.desencolar());
+        encolar(c2.desencolar());
+    }
+    while (!c1.es_vacia()) {
+        encolar(c1.desencolar());
+    }
+    while (!c2.es_vacia()) {
+        encolar(c2.desencolar());
+    }
+}
+
 
 
 

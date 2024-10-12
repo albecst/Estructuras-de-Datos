@@ -20,5 +20,6 @@ public:
     void iguales(Cola c);
     void simetrica();
     void concatenar(Cola c);
+    void mezclar_alternativamente(Cola c, Cola resultado);
 };
 #endif // COLA_H
