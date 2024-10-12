@@ -124,3 +124,17 @@ void Cola::iguales(Cola c) {
 }
 
 //3)
+//void Cola::simetrica() {
+
+//4)
+void Cola::concatenar(Cola c2) {
+    while (!c2.es_vacia()) {
+        encolar(c2.desencolar());
+    }
+}
+
+
+
+
+
+

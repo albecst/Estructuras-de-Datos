@@ -8,21 +8,21 @@ using namespace std;
 int main() {
     Cola c;
     Cola c2;
+    Cola c3;
     c.encolar('0');
     c.encolar('1');
     c.encolar('2');
     c.encolar('9');
+
+    c2.encolar('65');
+    c2.encolar('451');
+    c2.encolar('3653');
+
+    c.mostrarCola();
+    c2.mostrarCola();
+    c.concatenar(c2);
+
     c.mostrarCola();
 
-    c2.encolar('0');
-    c2.encolar('1');
-    c2.encolar('2');
-    c2.encolar('9');
-    c2.mostrarCola();
-
-    c2.iguales(c);
-
-
-    c.~Cola();
     return 0;
 }

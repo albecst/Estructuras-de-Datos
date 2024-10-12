@@ -19,5 +19,6 @@ public:
     void invertir();
     void iguales(Cola c);
     void simetrica();
+    void concatenar(Cola c);
 };
 #endif // COLA_H
