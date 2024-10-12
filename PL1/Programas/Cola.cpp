@@ -154,6 +154,37 @@ void Cola::quitar_primera_mitad() {
     }
 }
 
+void Cola::ordenada() {
+    if (es_vacia()) {
+        cout << "La cola está vacía" << endl;
+        return;
+    }
+
+    Cola aux;
+    bool ordenada = true;
+    char valorAnterior = desencolar();
+    aux.encolar(valorAnterior);
+
+    while (!es_vacia()) {
+        char valorActual = desencolar();
+        if (valorActual < valorAnterior) {
+            ordenada = false;
+        }
+        aux.encolar(valorActual);
+        valorAnterior = valorActual;
+    }
+
+    while (!aux.es_vacia()) {
+        encolar(aux.desencolar());
+    }
+
+    if (ordenada) {
+        cout << "La cola está ordenada de menor a mayor" << endl;
+    } else {
+        cout << "La cola no está ordenada de menor a mayor" << endl;
+    }
+}
+
 
 
 

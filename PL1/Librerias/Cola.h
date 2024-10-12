@@ -22,5 +22,6 @@ public:
     void concatenar(Cola c);
     void mezclar_alternativamente(Cola c, Cola resultado);
     void quitar_primera_mitad();
+    void ordenada();
 };
 #endif // COLA_H

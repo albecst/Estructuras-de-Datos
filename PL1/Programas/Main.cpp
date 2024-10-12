@@ -24,7 +24,11 @@ int main() {
     resultado.mostrarCola();
 
     resultado.quitar_primera_mitad();
+
+    resultado.encolar('0');
     resultado.mostrarCola();
+
+    resultado.ordenada();
 
     return 0;
 }
