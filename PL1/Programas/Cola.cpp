@@ -123,7 +123,7 @@ void Cola::iguales(Cola c) {
     }
 }
 
-//3)
+//3) TODO
 //void Cola::simetrica() {
 
 //4)
@@ -147,6 +147,7 @@ void Cola::mezclar_alternativamente(Cola c1, Cola c2) {
     }
 }
 
+//6)
 void Cola::quitar_primera_mitad() {
     int mitad = longitud / 2;
     for (int i = 0; i < mitad; i++) {
@@ -154,6 +155,7 @@ void Cola::quitar_primera_mitad() {
     }
 }
 
+//7)
 void Cola::ordenada() {
     if (es_vacia()) {
         cout << "La cola está vacía" << endl;
